@@ -22,12 +22,6 @@ This project implements an intelligent traffic light control system using MATLAB
 5. **System Output**: Displays processed images and sets traffic light duration accordingly.
 
 
-avgTrafficDensity = mean(trafficDensity);
-baseGreenTime = 30;
-adjustedGreenTime = baseGreenTime + avgTrafficDensity * 5;
-disp(['Adjusted Green Light Duration: ', num2str(adjustedGreenTime), ' seconds']);
-```
-
 ## Future Enhancements
 - **AI Integration**: Use deep learning for improved vehicle detection.
 - **Smart City Integration**: Coordinate multiple intersections for optimal traffic flow.
